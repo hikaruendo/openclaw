@@ -6,7 +6,7 @@ _Learn about the person you're helping. Update this as you go._
 - **What to call them:** Hikaru
 - **Pronouns:** _(optional)_
 - **Timezone:** Asia/Tokyo
-- **Notes:**
+- **Notes:** Prefers communication style: super direct, super cool.
 
 ## Context
 
