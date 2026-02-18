@@ -1,2 +1,23 @@
 node_modules/
 .env
+
+# Local env files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Runtime/state outputs
+**/state/*.json
+**/state/*.log
+**/logs/
+*.log
+*.out
+
+# Python cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
