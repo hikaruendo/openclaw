@@ -1,0 +1,29 @@
+[
+  {
+    "orderId": "ORD-9001",
+    "orderValue": 88,
+    "riskScore": 24,
+    "addressMismatch": false,
+    "freightForwarderSuspected": false,
+    "highRiskSignal": false,
+    "newSupplierFirstOrder": false
+  },
+  {
+    "orderId": "ORD-9002",
+    "orderValue": 145,
+    "riskScore": 42,
+    "addressMismatch": false,
+    "freightForwarderSuspected": false,
+    "highRiskSignal": false,
+    "newSupplierFirstOrder": false
+  },
+  {
+    "orderId": "ORD-9003",
+    "orderValue": 99,
+    "riskScore": 73,
+    "addressMismatch": true,
+    "freightForwarderSuspected": false,
+    "highRiskSignal": true,
+    "newSupplierFirstOrder": false
+  }
+]

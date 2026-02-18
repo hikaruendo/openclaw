@@ -1,0 +1,20 @@
+[
+  {
+    "sku": "SKU-1001",
+    "sourcePricePrev": 42,
+    "sourcePriceNow": 43.5,
+    "sourceStock": 12
+  },
+  {
+    "sku": "SKU-1002",
+    "sourcePricePrev": 55,
+    "sourcePriceNow": 60,
+    "sourceStock": 3
+  },
+  {
+    "sku": "SKU-1003",
+    "sourcePricePrev": 20,
+    "sourcePriceNow": 20,
+    "sourceStock": 0
+  }
+]

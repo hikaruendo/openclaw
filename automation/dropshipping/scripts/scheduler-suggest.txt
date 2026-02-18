@@ -1,0 +1,6 @@
+# Suggested cron (NY-focused)
+# Every 30 min: inventory + repricing + triage
+*/30 * * * * cd /Users/hikaruendo/Projects/openclaw && /usr/bin/env node automation/dropshipping/run-pipeline.mjs >> automation/dropshipping/state/pipeline.log 2>&1
+
+# Daily summary at NY 19:00 (server TZ dependent)
+0 19 * * * cd /Users/hikaruendo/Projects/openclaw && /usr/bin/env node automation/dropshipping/scripts/summary.mjs >> automation/dropshipping/state/summary.log 2>&1

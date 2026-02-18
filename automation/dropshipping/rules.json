@@ -1,0 +1,96 @@
+{
+  "market": {
+    "country": "US",
+    "priorityRegion": "New York",
+    "currency": "USD",
+    "timezone": "America/New_York"
+  },
+  "profitRules": {
+    "minGrossProfitUsd": 18,
+    "minGrossMarginPct": 18,
+    "minNetMarginPct": 10,
+    "enforceStricterCondition": true,
+    "estimatedCostRates": {
+      "ebayFeePct": 13,
+      "paymentFeePct": 3.5,
+      "returnReservePct": 4,
+      "fxSlippagePct": 1.5,
+      "miscReservePct": 2
+    }
+  },
+  "listingRules": {
+    "allowedCondition": ["new", "new_other"],
+    "banHighRiskBrands": true,
+    "banVeroFlaggedItems": true,
+    "requireTrackableShipping": true,
+    "defaultHandlingTimeBusinessDays": 2,
+    "displayedDeliveryWindowBusinessDays": {
+      "min": 4,
+      "max": 8
+    },
+    "maxSourcePriceChangeWithoutApprovalPct": 5
+  },
+  "inventoryAndPricing": {
+    "pollIntervalMinutes": 30,
+    "outOfStockAction": "set_out_of_stock",
+    "repriceOnSourceDeltaPct": 3,
+    "immediateRepriceDeltaPct": 5,
+    "minRecheckIntervalMinutes": 15,
+    "maxDailyRepricePerSku": 8
+  },
+  "autoApproval": {
+    "orderValueUsdMax": 120,
+    "autoApprovedOrdersPerDayMax": 20,
+    "sameBuyerAutoApproveMax": 1,
+    "blockIf": {
+      "addressMismatch": true,
+      "freightForwarderSuspected": true,
+      "highRiskSignal": true,
+      "manualFraudFlag": true,
+      "newSupplierFirstOrder": true
+    },
+    "alwaysManualIf": {
+      "orderValueUsdGte": 121,
+      "refundRequested": true,
+      "partialRefundRequested": true,
+      "negativeFeedbackCase": true,
+      "policyRiskItem": true
+    }
+  },
+  "customerService": {
+    "autoReplyEnabled": true,
+    "autoReplyOnlyFor": ["faq_shipping", "faq_eta", "faq_tracking"],
+    "manualApprovalFor": ["refund", "return", "damaged_item", "not_as_described", "negative_tone"]
+  },
+  "riskScoring": {
+    "enabled": true,
+    "manualReviewThreshold": 60,
+    "weights": {
+      "orderValue": 20,
+      "addressQuality": 20,
+      "buyerHistory": 20,
+      "regionRisk": 15,
+      "velocity": 15,
+      "itemRisk": 10
+    }
+  },
+  "kpiTargets": {
+    "cancelRatePctMax": 2,
+    "lateShipmentPctMax": 2,
+    "trackingDelayPctMax": 1,
+    "returnRatePctMax": 4
+  },
+  "reviewPolicyAfterDays": 30,
+  "relaxationPolicy": {
+    "conditions": {
+      "cancelRatePctLt": 1.5,
+      "lateShipmentPctLt": 2,
+      "trackingDelayPctLt": 1,
+      "returnRatePctLt": 4
+    },
+    "changes": {
+      "orderValueUsdMax": 180,
+      "minGrossMarginPct": 16
+    }
+  }
+}

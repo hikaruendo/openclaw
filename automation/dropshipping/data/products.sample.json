@@ -1,0 +1,20 @@
+[
+  {
+    "sku": "SKU-1001",
+    "sourcePrice": 42,
+    "shippingCost": 8,
+    "targetSellPrice": 79
+  },
+  {
+    "sku": "SKU-1002",
+    "sourcePrice": 55,
+    "shippingCost": 9,
+    "targetSellPrice": 82
+  },
+  {
+    "sku": "SKU-1003",
+    "sourcePrice": 20,
+    "shippingCost": 6,
+    "targetSellPrice": 38
+  }
+]
