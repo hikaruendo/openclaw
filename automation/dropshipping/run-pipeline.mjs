@@ -24,7 +24,19 @@ const main = async () => {
   const supplier = createSupplierAdapter({ mode, baseDirUrl: import.meta.url });
 
   const products = await supplier.fetchCatalogCandidates();
-  const listings = await ebay.fetchActiveListings();
+
+  let listings = [];
+  try {
+    listings = await ebay.fetchActiveListings();
+  } catch (e) {
+    console.warn(`WARN: fetchActiveListings failed: ${e.message}`);
+  }
+
+  const supplierStockBySku = await supplier.fetchStockAndPriceBySku();
+  const mergedListings = listings.map((l) => ({
+    ...l,
+    ...(supplierStockBySku[l.sku] || {})
+  }));
   const orders = await ebay.fetchOpenOrders();
 
   const runStatePath = new URL('./state/run-state.json', import.meta.url);
@@ -33,7 +45,7 @@ const main = async () => {
   const autoApprovedToday = runState.day === today ? runState.autoApprovedToday : 0;
 
   const research = runResearch({ products, rules });
-  const repriced = runReprice({ listings, rules });
+  const repriced = runReprice({ listings: mergedListings, rules });
   const triage = runOrderTriage({ orders, rules, currentAutoApprovedToday: autoApprovedToday });
 
   const applyActions = [];
@@ -41,7 +53,7 @@ const main = async () => {
     if (action.action === 'set_out_of_stock') {
       applyActions.push(await ebay.setListingOutOfStock(action.sku));
     } else if (action.action === 'reprice' || action.action === 'reprice_now') {
-      const listing = listings.find((l) => l.sku === action.sku);
+      const listing = mergedListings.find((l) => l.sku === action.sku);
       const newPrice = calcTargetPrice({
         sourcePrice: Number(listing?.sourcePriceNow || listing?.currentPrice || 0),
         shippingCost: Number(listing?.shippingCost || 0),

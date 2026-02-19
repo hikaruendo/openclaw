@@ -72,6 +72,31 @@ You can proceed with:
 3) Approval queue design (`state/approval-queue.json`)
 4) Cron dry-runs (`scripts/scheduler-suggest.txt`)
 
+## Supplier watchlist crawl (CSV snapshot)
+Use this for lightweight daily supplier checks (Qoo10 / Rakuten / Amazon JP) without full supplier API wiring.
+
+1) Edit watchlist CSV:
+`automation/dropshipping/data/supplier-watchlist.csv`
+
+Columns:
+- `sku`
+- `source_market` (`qoo10` | `rakuten` | `amazon_jp`)
+- `title`
+- `url`
+
+2) Run crawler:
+```bash
+node automation/dropshipping/scripts/supplier-crawl.mjs
+```
+
+3) Output files:
+- `automation/dropshipping/state/supplier-snapshot-YYYYMMDD.csv`
+- `automation/dropshipping/state/supplier-snapshot-latest.csv`
+
+Notes:
+- This is watchlist crawling (targeted URLs), not full-site crawling.
+- Respect marketplace terms and rate limits.
+
 ## Next step for production
 You must connect:
 1) eBay API (Inventory, Orders; tracking/message TODO points already marked)
