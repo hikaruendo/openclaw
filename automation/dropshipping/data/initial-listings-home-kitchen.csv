@@ -1,0 +1,11 @@
+sku,category,product_key,title_en,qty_pack,material,estimated_source_cost_jpy,shipping_cost_jpy,target_sell_price_usd,pricing_rule,handling_days,returns_policy,item_condition,notes
+HK-101,Home & Kitchen,silicone_sink_strainer,"Silicone Sink Strainer Kitchen Drain Catcher Hair Trap 2-Pack",2,Silicone,280,600,8.99,median_minus_3pct,1,30_day_returns,New,lightweight_low_breakage
+HK-102,Home & Kitchen,sink_sponge_holder,"Sink Sponge Holder Adhesive Kitchen Organizer Rustproof 1-Pack",1,Stainless Steel,420,600,9.99,median_minus_3pct,1,30_day_returns,New,high_search_intent
+HK-103,Home & Kitchen,faucet_extender,"Kitchen Faucet Extender Splash Filter Nozzle Swivel Universal 1-Pack",1,ABS+Silicone,380,600,9.49,median_minus_3pct,1,30_day_returns,New,fitment_note_required
+HK-104,Home & Kitchen,food_bag_clips,"Food Bag Clips Sealing Clips Kitchen Storage Assorted Colors 12-Pack",12,PP Plastic,260,600,7.99,median_minus_3pct,1,30_day_returns,New,repeat_buy_potential
+HK-105,Home & Kitchen,refrigerator_organizer_bin,"Refrigerator Organizer Bin Clear Storage Container with Handle 1-Pack",1,PET,520,700,11.49,median_minus_3pct,1,30_day_returns,New,bulky_but_safe
+HK-106,Home & Kitchen,measuring_spoons_set,"Measuring Spoons Set Stainless Steel with Leveler 6-Piece",6,Stainless Steel,450,600,10.49,median_minus_3pct,1,30_day_returns,New,giftable
+HK-107,Home & Kitchen,splatter_screen_guard,"Foldable Splatter Screen Guard for Stove Oil Splash Shield 1-Pack",1,Aluminum Foil,390,700,10.99,median_minus_3pct,1,30_day_returns,New,keyword_oil_guard
+HK-108,Home & Kitchen,cutting_board_stand,"Cutting Board Stand Kitchen Rack Space Saving Holder 1-Pack",1,Iron,480,650,10.99,median_minus_3pct,1,30_day_returns,New,small_storage_item
+HK-109,Home & Kitchen,drawer_divider_tray,"Adjustable Drawer Divider Tray Organizer for Kitchen Utensils 4-Pack",4,PP Plastic,540,700,12.49,median_minus_3pct,1,30_day_returns,New,variation_ready
+HK-110,Home & Kitchen,cable_clips_kitchen,"Cable Clips Organizer for Kitchen Appliances Self Adhesive 20-Pack",20,Silicone,240,600,7.49,median_minus_3pct,1,30_day_returns,New,low_return_risk

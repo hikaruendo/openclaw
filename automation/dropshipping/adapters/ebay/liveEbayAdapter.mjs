@@ -106,7 +106,11 @@ export class LiveEbayAdapter {
       headers: {
         Authorization: `Bearer ${token}`,
         Accept: 'application/json',
-        ...(body ? { 'Content-Type': 'application/json' } : {}),
+        'Accept-Language': process.env.EBAY_ACCEPT_LANGUAGE || 'en-US',
+        ...(body ? {
+          'Content-Type': 'application/json',
+          'Content-Language': process.env.EBAY_CONTENT_LANGUAGE || 'en-US'
+        } : {}),
         ...headers
       },
       body: body ? JSON.stringify(body) : undefined
