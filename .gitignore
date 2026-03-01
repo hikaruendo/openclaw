@@ -23,3 +23,6 @@ venv/
 
 # macOS
 .DS_Store
+
+# Skill artifacts
+automation/meitra_growth_skill/output/

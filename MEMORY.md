@@ -32,3 +32,18 @@
 ## Lifestyle
 
 - Night-owl rhythm: wakes around 24:00, sleeps around 08:00
+- Working style preference (2026-02-19): 問題の兆候を見たら、逐次の指示待ちより先に自発改修を優先してよい。改修を行ったら必ずユーザーへ報告すること。
+
+## API / Tooling Role Clarity (2026-03-01)
+
+- xAI (`console.x.ai`) と X Developer (`developer.x.com`) は別サービスとして扱う。
+- `XAI_API_KEY` は xAI API（文案生成・分析・画像生成など）に使う。
+- `TWITTER_BEARER_TOKEN` は X API v2 の取得系（tweet metrics取得など）に使う。
+- PostizでのX投稿自体はOAuth連携（ユーザーコンテキスト）を利用し、`TWITTER_BEARER_TOKEN` とは用途が異なる。
+
+## Session Continuity Rule
+
+- セッションが切れても引き継げるよう、終了前に「引き継ぎ3行」を必ず `memory/YYYY-MM-DD.md` に残す。
+  1. 今日やったこと
+  2. 現在状態（数値）
+  3. 次にやる1手

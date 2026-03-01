@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets / local auth
+.env
+token.json
+client_secret.json
+
+# Local database
+youtube_analytics.db
+
+# Logs
+logs/
+*.log
