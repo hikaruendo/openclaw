@@ -26,3 +26,6 @@ venv/
 
 # Skill artifacts
 automation/meitra_growth_skill/output/
+.openclaw/
+postiz-app/
+mei-tra/

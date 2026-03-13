@@ -1,6 +1,6 @@
 # Brand Voice Guide — kando1合同会社 (@kando1_)
 
-Last updated: 2026-02-18
+Last updated: 2026-03-04
 Sample base: 14 posts (X timeline, Oct–Dec 2025)
 
 ---
@@ -159,3 +159,35 @@ Hope you enjoy it!
 
 This guide is **v1** built from a small sample (14 posts).
 For higher fidelity, retrain with 50–100 posts (X + blog + product docs).
+
+---
+
+## 11) Optional Mode: "@levelsio-style" (for bug/devlog posts)
+
+When speed and reach are prioritized (especially bug reports / build updates), use this mode.
+
+### Core characteristics
+- 1投稿1メッセージ（短い）
+- 数字・事実を先頭に置く
+- Build in public（進捗を小刻みに出す）
+- 説明しすぎない（背景より結果）
+- 断定口調 + 軽い人間味
+
+### Format template
+1) 何が起きたか（1行）
+2) どこで起きるか（1行）
+3) 今どうしてるか（1行）
+4) 必要なら協力依頼（1行）
+
+### Example (bug report)
+Mobile bug found in meitra:
+cards move on their own while waiting.
+
+Repro is mostly on mobile.
+Investigating now.
+
+### Do / Don’t in this mode
+- Do: short lines, hard facts, concrete status
+- Do: attach proof (video/screenshot)
+- Don’t: 長い背景説明、言い訳、曖昧な表現
+- Don’t: ハッシュタグ過多（0〜2個まで）

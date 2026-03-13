@@ -1,0 +1,38 @@
+[
+  {
+    "idx": 1,
+    "type": "hook",
+    "text": "【検証】Meitraで勝率を上げる1手",
+    "prompt": "Vertical 1024x1536. Bold Japanese headline slide for strategy card game, high contrast, clean UI-like design."
+  },
+  {
+    "idx": 2,
+    "type": "problem",
+    "text": "よくあるミス",
+    "prompt": "Vertical 1024x1536. Minimal infographic showing common beginner mistake in trick-taking card game."
+  },
+  {
+    "idx": 3,
+    "type": "proof",
+    "text": "実プレイ証拠",
+    "prompt": "PLACEHOLDER: replace with real Meitra screenshot."
+  },
+  {
+    "idx": 4,
+    "type": "step1",
+    "text": "手順1: 状況把握",
+    "prompt": "Vertical 1024x1536 educational slide with simple icons and short Japanese text."
+  },
+  {
+    "idx": 5,
+    "type": "step2",
+    "text": "手順2: 判断",
+    "prompt": "Vertical 1024x1536 educational slide, same style consistency."
+  },
+  {
+    "idx": 6,
+    "type": "cta",
+    "text": "続きは明日。スクショ投稿で紹介",
+    "prompt": "Vertical 1024x1536 CTA slide, social proof style."
+  }
+]

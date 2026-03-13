@@ -1,0 +1,45 @@
+{
+  "title": "【検証】Meitraで勝率を上げる1手",
+  "caption": "今日の検証テーマ: Meitraで勝率を上げる1手\n\n証拠: 実プレイで逆転した場面\n\n勝てる手順を1つずつ分解して投稿します。\n#meitra でスクショ投稿して。毎日紹介します",
+  "platform": "tiktok",
+  "mode": "draft",
+  "notes": "Replace slide 3 with real gameplay screenshot before posting.",
+  "hashtags": [
+    "#meitra",
+    "#カードゲーム",
+    "#戦略ゲーム",
+    "#ゲーム攻略"
+  ],
+  "assets": [
+    {
+      "idx": 1,
+      "type": "hook",
+      "text": "【検証】Meitraで勝率を上げる1手"
+    },
+    {
+      "idx": 2,
+      "type": "problem",
+      "text": "よくあるミス"
+    },
+    {
+      "idx": 3,
+      "type": "proof",
+      "text": "実プレイ証拠"
+    },
+    {
+      "idx": 4,
+      "type": "step1",
+      "text": "手順1: 状況把握"
+    },
+    {
+      "idx": 5,
+      "type": "step2",
+      "text": "手順2: 判断"
+    },
+    {
+      "idx": 6,
+      "type": "cta",
+      "text": "続きは明日。スクショ投稿で紹介"
+    }
+  ]
+}

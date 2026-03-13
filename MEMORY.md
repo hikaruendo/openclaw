@@ -17,6 +17,8 @@
 - Brand direction for X (@kando1_): "kando1合同会社 = Web Product Studio" as core, showcasing meitra as flagship new-venture project
 - Content mix target for X: 50% meitra dev log / 30% engineering knowledge / 20% company-business perspective
 - Wants automation: trigger X posting workflow from meitra development updates
+- X投稿スタイル希望（2026-03-04）: @levelsio寄り（短文、数字/事実先出し、build in public、1投稿1メッセージ、説明しすぎない）
+- 財務状況メモ（2026-03-04時点）: 会社口座残高は約400万円。
 
 ## Decision / Support Style
 

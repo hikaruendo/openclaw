@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "profiles": {
+    "openai-codex:default": {
+      "type": "oauth",
+      "provider": "openai-codex",
+      "access": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MzQ0ZTY1LWJiYzktNDRkMS1hOWQwLWY5NTdiMDc5YmQwZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSJdLCJjbGllbnRfaWQiOiJhcHBfRU1vYW1FRVo3M2YwQ2tYYVhwN2hyYW5uIiwiZXhwIjoxNzczODg4MDcwLCJodHRwczovL2FwaS5vcGVuYWkuY29tL2F1dGgiOnsiY2hhdGdwdF9hY2NvdW50X2lkIjoiMzVkYWJiMDgtMTM3Yi00NmEwLTg5ZTYtMmE5N2RjYTBlMGIxIiwiY2hhdGdwdF9hY2NvdW50X3VzZXJfaWQiOiJ1c2VyLUZVVDZETklVMHFHZkpuNFJiZTkyV3ZsRV9fMzVkYWJiMDgtMTM3Yi00NmEwLTg5ZTYtMmE5N2RjYTBlMGIxIiwiY2hhdGdwdF9jb21wdXRlX3Jlc2lkZW5jeSI6Im5vX2NvbnN0cmFpbnQiLCJjaGF0Z3B0X3BsYW5fdHlwZSI6InBsdXMiLCJjaGF0Z3B0X3VzZXJfaWQiOiJ1c2VyLUZVVDZETklVMHFHZkpuNFJiZTkyV3ZsRSIsInVzZXJfaWQiOiJ1c2VyLUZVVDZETklVMHFHZkpuNFJiZTkyV3ZsRSJ9LCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJoaWthLmJsdWU5MUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImlhdCI6MTc3MzAyNDA3MCwiaXNzIjoiaHR0cHM6Ly9hdXRoLm9wZW5haS5jb20iLCJqdGkiOiIwNGI3ZDc5OC1kMDE4LTQyMmUtYTY5NS0xZDE3YzBmNDViOWYiLCJuYmYiOjE3NzMwMjQwNzAsInB3ZF9hdXRoX3RpbWUiOjE3NzMwMjQwNjg2OTcsInNjcCI6WyJvcGVuaWQiLCJwcm9maWxlIiwiZW1haWwiLCJvZmZsaW5lX2FjY2VzcyJdLCJzZXNzaW9uX2lkIjoiYXV0aHNlc3NfdFYweHVrY2hJMVZJSDNSWDF2ajhDNFgxIiwic2wiOnRydWUsInN1YiI6Imdvb2dsZS1vYXV0aDJ8MTAwMDQ0Nzg0NjIzNjg0ODQwNzI4In0.idzjSqsuC7ma9WWT8MMGCHXwnDG4ba_cW5JPlZ20AwN2b9Ljdb8kV_3Amavsjs1nVqZ3ORMyf7tUuiW46rwIGG1kEDlTSL__hz8gaXsQeSDmZsjairCSYTU4w74sCFxrJYTTynocK5O9P5RGy2QbzNBImKSCFPadADXFwVgnC23qaVbe5RkEcpnXZnzcuMsmz6QZaLX3OW8CM95WrtvPu4XkxGZ5sxqs-a9MGU05YLzKX2nuZJagEDY736fp-ZY1X_QYbzTs6YXBPSHm4NbGPb7PYV3igYDx2NsJyMMiKUAbJF_DyVplE5K0VIbhxyQ1Muir2_Xwz4RWTjMFNLbWZakcMt6VB99cFNdhvIpOEE7oQfrEwmjTJ13BvptsBGmbBDNnmbXnyMHKaqMGM41YL2A--ba46ONXRvEBKF9m7tssjT3vX5HrEJkrcY-8kJPkw9zSA0pNxXs8kad03RxRS9ZLnFL_8fgQgpyh-qUN_md7USoOOa1gh9WpUX7LjNLMla6f9YwLxonp4Gw1I3T18XZlYZZICDGIXoPlNi3z4KCM-qDYDWCSzfsYjDs7MxrVpPNOdB1XgsspKQmvTJKuUPJP3DYXm5OluznUEXF-Hwk7qM2YiVdqXf9PPnzI05UD1AWxq_pjlzaxjGvyeVdnZyGtDIJGpSQT4kp4X1s_OyQ",
+      "refresh": "rt_jAvYDXd_zbyOlnwlXaoi7FowMTBUelHHRwsR8PDXq74.Sp1tRAQi34VfqrM39y-zJ0bDqKTJONXQekaUwapBb_Y",
+      "expires": 1773888069581,
+      "accountId": "35dabb08-137b-46a0-89e6-2a97dca0e0b1"
+    },
+    "anthropic:manual": {
+      "type": "token",
+      "provider": "anthropic",
+      "token": "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"
+    }
+  },
+  "lastGood": {
+    "openai-codex": "openai-codex:default",
+    "anthropic": "anthropic:manual"
+  },
+  "usageStats": {
+    "openai-codex:default": {
+      "lastUsed": 1773367338729,
+      "errorCount": 0,
+      "lastFailureAt": 1772415064922
+    },
+    "anthropic:manual": {
+      "lastUsed": 1773358473968,
+      "errorCount": 0
+    }
+  }
+}
